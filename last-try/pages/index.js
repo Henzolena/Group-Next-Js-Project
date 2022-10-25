@@ -58,7 +58,7 @@ export default function Home() {
             </h1>
   
             {/* Adding the Link Component */}
-            <Link href="/About">
+            <Link href="/about">
                 <a><button>Go to About</button></a>
             </Link>
             <br />

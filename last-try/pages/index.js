@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to HENZOLINA <Link href="pages/about">Next.js!</Link>
+          Welcome to HENZOLINA <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="./about.js" className={styles.card}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
@@ -50,6 +50,21 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+        </div>
+        <div>
+          {/* Adding Heading */}
+          <h1>
+                Testing Page Linking
+            </h1>
+  
+            {/* Adding the Link Component */}
+            <Link href="/About">
+                <a><button>Go to About</button></a>
+            </Link>
+            <br />
+            <Link href="/product">
+                <a><button>Go to Product Page</button></a>
+            </Link>
         </div>
       </main>
 

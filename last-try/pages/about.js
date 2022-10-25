@@ -8,5 +8,5 @@ export default function About() {
         <Link href="/">Back to Home</Link>
     </h2>
     </>
-    )
+    );
   }
